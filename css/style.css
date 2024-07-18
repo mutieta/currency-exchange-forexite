@@ -8,8 +8,18 @@
 }
 
 body {
-  min-height: 100vh;
   background-color: white;
+  background-image: url('https://i.pinimg.com/564x/ff/a3/ad/ffa3ad062ddd5f01043387fe5f8fe3fd.jpg');
+  background-size: cover; /* or contain, depending on your preference */
+  background-repeat: no-repeat; /* prevents the image from repeating */
+  height: 50px; /* Set the height to 300px */
+  width: 100%; /* This is the default for body, but can be added for clarity */
+  margin: 0; /* Remove default margin */
+}
+header{
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
 }
 
 .wrapper {
@@ -20,8 +30,6 @@ body {
   padding: 30px;
   border-radius: 30px;
   background-color: transparent;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow here */
-  
 }
 
 .wrapper header {
@@ -114,14 +122,34 @@ form button {
   border-radius: 5px;
 }
 
-/*.header {
-  background-color: rgb(7, 7, 119);
-  color: white;
-  padding: 70px;
+.bg-light-blue {
+    background-color: #add8e6; /* Light blue background */
+  }
+  .text-center {
+    text-align: center; /* Center text */
+  }
+  .flag {
+    width: 24px; /* Smaller flag size */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+
+.custom-margin-top {
+  margin-top: 100px; /* Set exact top margin */
+}
+.custom-shadow {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adjust shadow as needed */
 }
 
-.header h3,
-.header h5 {
-  text-align: center;
-  font-weight: bold;
+.table-bordered th, .table-bordered td {
+  border-color: transparent; /* Make grid lines transparent */
 }
+
+.tradingview-widget-container {
+  margin-left: 8.5%; 
+  margin-top: 100px; 
+  border: 0; /* Make border invisible */
+}
+
