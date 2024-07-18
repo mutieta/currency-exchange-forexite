@@ -1,6 +1,12 @@
 # Currency Exchange App
 
 A simple web application to check real-time currency exchange rates.
+![image](https://github.com/user-attachments/assets/77d5f4b0-882b-43f3-b8a7-36312d413dba)
+![image](https://github.com/user-attachments/assets/5144b995-7c75-41f7-aba0-06783efd6f9d)
+![image](https://github.com/user-attachments/assets/49df07c5-80b6-4e34-88c8-4ad576dd8410)
+
+
+
 
 ## Description
 
