@@ -17,6 +17,7 @@ This project allows users to view and compare currency exchange rates from vario
 3. Install dependencies:
    ```bash
    npm install
+
 ## Usage
 To start the application, run:
 ```bash
