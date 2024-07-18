@@ -16,25 +16,24 @@ This project allows users to view and compare currency exchange rates from vario
    ```bash
    npm install
 
-#Usage
+##Usage
 To start the application, run:
 ```bash
    npm start
 
-#Features
-Real-time exchange rates
-User-friendly interface
-Historical data comparison
-Contributing
+
+##Features
+* Real-time exchange rates
+* User-friendly interface
+* Historical data comparison
+
+##Contributing
 Feel free to submit issues or pull requests! Please ensure your code adheres to the project's coding standards.
 
-License
+##License
 This project is licensed under the MIT License.
 
-Contact
-For questions, reach out to Your Name.
+##Contact
+For questions, don't reach out.
 
-css
-Copy code
 
-Feel free to replace `[Your Name]` with your actual name or contact details as needed!
