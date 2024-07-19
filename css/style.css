@@ -1,47 +1,56 @@
+/* Importing Poppins font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+/* Global reset and basic styling */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif; /* Default font */
 }
 
+/* Body styling */
 body {
-  background-color: white;
-  background-image: url('https://i.pinimg.com/564x/ff/a3/ad/ffa3ad062ddd5f01043387fe5f8fe3fd.jpg');
-  background-size: cover; /* or contain, depending on your preference */
-  background-repeat: no-repeat; /* prevents the image from repeating */
-  height: 50px; /* Set the height to 300px */
-  width: 100%; /* This is the default for body, but can be added for clarity */
+  background-color: white; /* White background */
+  background-image: url('https://i.pinimg.com/564x/ff/a3/ad/ffa3ad062ddd5f01043387fe5f8fe3fd.jpg'); /* Background image */
+  background-size: cover; /* Cover the entire background */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full viewport width */
   margin: 0; /* Remove default margin */
 }
-header{
+
+/* Centered header styling */
+header {
   text-align: center;
   font-weight: bold;
   font-size: 200%;
 }
 
+/* Wrapper container styling */
 .wrapper {
-  margin-top: 40px;
+  margin-top: 40px; /* Space from top */
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
-  padding: 30px;
-  border-radius: 30px;
-  background-color: transparent;
+  width: 500px; /* Fixed width */
+  padding: 30px; /* Padding inside the wrapper */
+  border-radius: 30px; /* Rounded corners */
+  background-color: transparent; /* Transparent background */
 }
 
+/* Header inside wrapper styling */
 .wrapper header {
   font-size: 28px;
   font-weight: 500;
   text-align: center;
 }
 
+/* Form styling */
 .wrapper form {
-  margin: 40px 0 20px 0;
+  margin: 40px 0 20px 0; /* Margin for the form */
 }
 
+/* Styling for form elements (inputs, selects, buttons) */
 form :where(input, select, button) {
   width: 100%;
   outline: none;
@@ -49,6 +58,7 @@ form :where(input, select, button) {
   border-radius: 5px;
 }
 
+/* Input field styling */
 form input {
   height: 50px;
   border: 1px solid #999;
@@ -56,16 +66,19 @@ form input {
   padding: 0 15px;
 }
 
+/* Input focus state styling */
 form input:focus {
   padding: 0 14px;
   border: 2px solid black;
 }
 
+/* Paragraph styling inside form */
 form p {
   font-size: 18px;
   margin-bottom: 5px;
 }
 
+/* Drop-down list styling */
 form .drop-list {
   display: flex;
   align-items: center;
@@ -73,6 +86,7 @@ form .drop-list {
   margin-top: 20px;
 }
 
+/* Select box styling */
 .drop-list .select-box {
   display: flex;
   height: 45px;
@@ -82,35 +96,41 @@ form .drop-list {
   border: 1px solid #999;
 }
 
+/* Select box select element styling */
 .select-box select {
   width: auto;
   font-size: 16px;
   margin: 0 -5px 0 5px;
 }
 
+/* Flag image styling */
 .select-box img {
   max-width: 25px;
 }
 
+/* Exchange icon styling */
 .drop-list .icon {
   cursor: pointer;
   font-size: 22px;
   margin-top: 30px;
 }
 
+/* Exchange rate text styling */
 form .exchange-rate {
   font-size: 17px;
   margin: 20px 0 30px;
 }
 
+/* Button styling */
 form button {
   height: 52px;
   color: #fff;
   font-size: 17px;
   cursor: pointer;
-  background: rgb(7, 7, 119);
+  background: rgb(7, 7, 119); /* Dark blue background */
 }
 
+/* Hover states for Register and Log In buttons */
 .register:hover {
   background-color: rgb(7, 7, 119);
 }
@@ -122,34 +142,43 @@ form button {
   border-radius: 5px;
 }
 
+/* Light blue background styling */
 .bg-light-blue {
-    background-color: #add8e6; /* Light blue background */
-  }
-  .text-center {
-    text-align: center; /* Center text */
-  }
-  .flag {
-    width: 24px; /* Smaller flag size */
-    height: auto; /* Maintain aspect ratio */
-  }
-
-
-.custom-margin-top {
-  margin-top: 100px; /* Set exact top margin */
+  background-color: #add8e6;
 }
+
+/* Center text styling */
+.text-center {
+  text-align: center;
+}
+
+/* Flag size styling */
+.flag {
+  width: 24px;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Custom margin top styling */
+.custom-margin-top {
+  margin-top: 100px;
+}
+
+/* Custom shadow styling */
 .custom-shadow {
   margin-top: 100px;
   margin-bottom: 100px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adjust shadow as needed */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
 }
 
-.table-bordered th, .table-bordered td {
-  border-color: transparent; /* Make grid lines transparent */
+/* Table border styling */
+.table-bordered th,
+.table-bordered td {
+  border-color: transparent; /* Transparent grid lines */
 }
 
+/* TradingView widget container styling */
 .tradingview-widget-container {
-  margin-left: 8.5%; 
-  margin-top: 100px; 
-  border: 0; /* Make border invisible */
+  margin-left: 8.5%; /* Adjusted margin left */
+  margin-top: 100px; /* Top margin */
+  border: 0; /* No border */
 }
-
